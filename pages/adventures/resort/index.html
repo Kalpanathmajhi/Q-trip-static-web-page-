@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip Adventure Detail</title>
+    <link rel="stylesheet" href="../../../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- TODO: MODULE_ADVENTURE_DETAILS -->
+    <!-- 1. Copy navigation bar HTML from Landing page document -->
+    <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="#"> <h2>QTrip</h2></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarItems"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarItems"
+        >
+          <div class="nav-item">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="../../index.html" class="nav-link"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./pages/adventures/index.html"
+                  class="nav-link"
+                  id="explore"
+                >
+                  Explore
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="content">
+        <!-- TOOD: MODULE_ADVENTURE_DETAILS -->
+        <!-- 1. Write the child elements as required. -->
+        <!-- 2. Remember to use .adventure-card and its related classes. -->
+        <div class="row">
+         <div class="col-lg-8">
+            <div class="card">
+            <div class="card-body">
+            <div class="adventure-detail-card">
+               <div class="row">
+                  <div class="col-lg-8">
+                     <img class="img-fluid adventure-card-image h-100" src="/assets/adventures/resort/resort1.jpg" alt="resort1">
+                  </div>
+                  <div class="col-lg-4 d-none d-sm-block">
+                     <img class="img-fluid adventure-card-image mb-2" src="/assets/adventures/resort/resort2.jpg" alt="resort2">
+                     <img class="img-fluid adventure-card-image" src="/assets/adventures/resort/resort3.jpg" alt="resort2">
+                  </div>
+               </div>
+            </div>
+               <div>
+                  <h2 style="text-align: left;">Sunshine Resort</h2>
+                 <p style="color: darkgrey; text-align: left;">Relax and unwind yourself</p>
+              </div>
+              <hr>
+              <div>
+                  <h5 style="text-align: left;">About the experience</h5>
+                  <p style="text-align: left;">Being a 12 room boutique resort spread over 4 acres , number of guests restricted to 24, makes us the ideal vacation spot offering the highest level of social distancing. Our highest priority is the health,safety and security of our guests and employees.FHRAI is a recognised hotelier association in India and has set guidelines to be followed in terms of the COVID-19 pandemic.</p>
+                  <h6 style="text-align: left;">Inclusions</h6>
+                  <ul style="text-align: left;" class="ml-3">
+                     <li>Swimming pool access</li>
+                     <li>Outdoor sports - Water Polo, Archery, Tennis and zorbing</li>
+                     <li>Indoor games - Indoor squash, Table Tennis, Carrom, Badminton, and x-Box 360 KINCETParking</li>
+                  </ul>
+                  <h6 style="text-align: left;">Knowledge before you go</h6>
+                  <ul style="text-align: left;" class="ml-3">
+                     <li>Game accessories like balls and shuttercocks will need to be purchased</li>
+                     <li>All adventures and game accessibilities are subject to availability</li>
+                     <li>Nylon swimwear must be worn at all times when using the swimming pool</li>
+                     <li>Children must be accompanied by parents or guardians at all times</li>
+                     <li>Complimentory entry for children below height of three feet A valid photo ID is mandatory to enter the resor</li>
+                  </ul>			    
+              </div>
+            </div>
+            </div>
+            
+         </div> 
+         <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                 <h5 class="card-title">Sold Out!</h5>
+                 <hr>
+                 <p class="card-text">This adventure is currently sold. But there is a lot more to <a href="/pages/adventures/" class="text-warning">explore</a></p>
+              </div>
+            </div>
+         </div>
+      </div>
+    <footer>
+      <div class="container" style="text-align: left;">© QTrip 2022</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
